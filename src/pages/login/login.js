@@ -14,7 +14,7 @@ const Login = () => {
         if(!email && !password){
             return;
         }
-        const res = await fetch("http://localhost:1600/api/v1/auth/login", {
+        const res = await fetch("https://kiet-backend.onrender.com/api/v1/auth/login", {
             headers: {
                 "Content-Type": "application/json",
             },
